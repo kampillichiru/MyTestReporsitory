@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+ <html>
+ 
+ <head>
+ 
+ 
+ 
+ <base href="http://honor.americanheart.org/site/" />
+ 
+ 
+ 
+ <title>American Heart/American Stroke Association: </title>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+ <meta http-equiv="Content-Script-Type" content="text/javascript" />
+ <meta name="Keywords" content=" " />
+ <meta name="Description" content="" />
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script src="/A2EB891D63C8/avg_ls_dom.js" type="text/javascript"></script>
+ <script type="text/javascript" src="http://honor.americanheart.org/yui3/yui/yui-min.js"></script>
+ <script type="text/javascript" src="http://honor.americanheart.org/js/convio/modules.js?version=2.9"></script>
+ <script type="text/javascript">
+ var Y = YUI({
+ base: '../yui3/',
+ 
+ debug: false,
+ 
+ modules: getModules('../', 'convio', false)
+ });
+ </script>
+ 
+ 
+ <script type="text/javascript" src="http://honor.americanheart.org/js/utils.js"></script>
+ 
+ <script type="text/javascript" src="http://honor.americanheart.org/js/obs_comp_rollup.js"></script>
+ 
+ 
+ <link href="http://honor.americanheart.org/css//themes/default.css" rel="stylesheet" type="text/css" />
+ <link href="http://honor.americanheart.org/css//themes/alphacube.css" rel="stylesheet" type="text/css"/>
+ 
+ 
+ 
+ 
+ <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+ 
+ 
+ <link href="http://honor.americanheart.org/css//UserGlobalStyle.css" rel="stylesheet" type="text/css" />
+ 
+ 
+ <link href="http://honor.americanheart.org/css//FriendraiserUserStyle.css" rel="stylesheet" type="text/css" />
+ 
+ 
+ <link href="http://honor.americanheart.org/css//CustomStyle.css" rel="stylesheet" type="text/css" />
+ <link href="http://honor.americanheart.org/css//CustomWysiwygStyle.css" rel="stylesheet" type="text/css" />
+ 
+ 
+ 
+ 
+ <meta name="CnvHeaderVersion" content="v5.0" />
+ 
+ 
+ 
+ 
+ <!--
+ <script type="text/javascript">
+ addOnLoadHandler(removeReset);
+ 
+ function removeReset(){window.setTimeout(r2, 5);}
+ 
+ function r2() {
+ for (var i=document.styleSheets.length-1; i>=0; i--) {
+ if (document.styleSheets[i].href) {
+ if (document.styleSheets[i].href.indexOf("reset.css") >= 0) {
+ document.styleSheets[i].disabled=true;
+ break;
+ }
+ }
+ }
+ }
+ </script>
+ -->
+ <style>
+ 
+ 
+ #container {
+ margin: auto;
+ 
+ text-align: center;
+ width: 960px;
+ }
+ #main {text-align:left; margin-top:10px;}
+ *, body, form, input, input.AddressBookButtons, input.Advocacy, input.btn, input.btnLg, input.btnMed, input.btnMini, input.btnSm, select, select.Advocacy, textarea, legend, ul, ol, li, option, table, tr, th, th.rfl_infoStatus, td, td.AlertListDescription, td.cstmBack, p, p.cstmBtnText, p.cstmFrame, p.cstmHeading, p.cstmText, p.cstmTitle, p.dividerHeading, p.scrollingText, span.cstmHeading, a, a.btn, a.btn:visited, a.cstmBtnText:hover, a.cstmBtnText:link, a.cstmBtnText:visited, #navList, .AdvocacyInstructions, .AdvocacyNSFix, .BlogHeader, .Button, .Divider, .FieldLabels, .FormBox, .FormBox06, .FormBoxHeader, .Hint, .Instructions, .Instructions, .ListItem0, .ListItem1, .NetscapeFix, .NoteText, .ObjTitle, .PhotoLinks, .Premiums, .ProgressBox, .ProgressBoxCurrent, .SectionHead, .SmallButton, .Smaller, .SmallerC, .TribBtnText1, .Upgrades, .WhatNext, .alphacube_content, .dialog_content, .dialog_title, .explicit, .fr_register_another, .paraBlueSansSmall, .smallBlack, .smallSans, .smallSansBold, .smallWhiteBoldSans, .smallWhiteSans, .smallestBlackSans {
+ font-family: Arial,Helvetica,Verdana,sans-serif;
+ font-size:12px;
+ }
+ 
+ a.footerTitle, a.footerTitle:link, a.footerTitle:visited, span.footerTitle a, span.footerTitle a:link, span.footerTitle a:visited {
+ color: #0267AC;
+ display: block;
+ font-weight: bold;
+ text-decoration: none;
+ }
+ 
+ p.legal, p.legal a, p.legal span { font-size: 10px;}
+ 
+ #footer_buff { margin: 0 auto;}
+ 
+ h2.cstmTitle {
+ display: none;
+ }
+ 
+ </style>
+ 
+ <!--[if IE]>
+ <style>
+ #container { text-align: center; width:auto;}
+ #main {text-align:left; width: 960px;}
+ 
+ 
+ li.seals img { border: 0 none;margin: 5px 8px;}
+ 
+ #footer_wrapper, #headerWrapper {text-align:center}
+ #footer_buff , div.width960 {text-align:left}
+ 
+ 
+ p.legal { padding:0px 0px 0px 0px; margin: 0px 0px 0px 0px;}
+ 
+ 
+ </style>
+ 
+ <![endif]-->
+ 
+ </head>
+ <body
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ >	
+ <div id="holdheartsheader1">
+ <div id="holdheartsheader2">
+ <script>
+ // ***** VENDOR CONFIGURATIONS ***** //
+ 
+ // ***** required parameters ***** //
+ 
+ 
+ headerSubLogoHref = 'https://secure2.convio.net/amha/site/TRR?fr_tm_opt=new&pg=tcfund&fr_id=1030';
+ headerSubLogoText = '';
+ 
+ 
+ 
+ // ***** optional parameters ***** //
+ var hidePersonas = false;
+ var hideDonate = true;
+ var hideSearch = true;
+ </script>
+ 
+ <script src="http://static.heart.org/aha_header.js"></script>	
+ </div>
+ 
+ </div>
+ <div id="container">
+ <div id="main">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="appArea">
+ <table width="100%" cellpadding="5" cellspacing="0" border="0">
+ 
+ <tr valign="top">
+ <td width="100%">
+ 
+ <h2 class="cstmTitle">American Heart Association Tributes</h2>
+ 
+ </td>
+ </tr>
+ <tr valign="top">
+ <td width="100%">
+ <table width="100%" cellpadding="5" cellspacing="0" border="0">
+ <tr valign="top">
+ <td align="center">
+ 
+ 
+ <a href="http://honor.americanheart.org/site/TR/Events/General?pg=ffind&fr_id=1030"></a>
+ 
+ 
+ </td>
+ 
+ 
+ 
+ 
+ 
+ </tr>
+ </table>
+ <span>
+ <h2>Matching Gifts</h2>
+ <p>
+ <style type="text/css"> input { font-size: 12px; font: 100% Arial,"Trebuchet MS",Verdana,Helvetica,sans-serif !important; } </style>
+ ${header}${page_content}${footer}
+ </p>
+ </span>
+ </td>
+ </tr>
+ </table>
+ </div>
+ </div>
+ 
+ </div>	
+ 
+ 
+ <div id="holdheartsfooter1">
+ <div id="holdheartsfooter2">
+ 
+ <script>
+ 
+ // ***** VENDOR CONFIGURATIONS ***** //
+ 
+ // ***** Initialize javascript object (hash) ***** //
+ var footerContactUs = new Object();
+ 
+ // ***** create a hash key (associative arrays) and assign a new Array as its value ***** //
+ footerContactUs['Address'] = new Array("7272 Greenville Ave.","Dallas, Tx 75231");
+ footerContactUs['Customer Service'] = new Array("1-800-AHA-USA-1","1-800-242-8721");
+ 
+ 
+ footerSealHTML="<a href=\"http://www.convio.com\" title=\"Convio Nonprofit Software\"><img src=\"http://honor.americanheart.org/images/convio_logo_bottom.jpg\" alt=\"Convio Nonprofit Software\" border=\"0\"></a><a href=\"http://charityreports.bbb.org/public/seal.aspx?ID=379302003\" title=\"BBB\"><img src=\"http://static.heart.org/ahaanywhere/images/bbb_seal.gif\" alt=\"BBB\" width=\"40\" height=\"67\"/></a><a href=\"http://www.verisign.com/ssl/secured-seal/index.html?tid=a_box\" title=\"VeriSign Secured\"><img src=\"http://static.heart.org/ahaanywhere/images/seal_s.gif\" alt=\"VeriSign Secured\" width=\"93\" height=\"47\"/></a>";
+ 
+ 
+ </script>
+ 
+ <script src="http://static.heart.org/aha_footer.js"></script>	
+ 
+ </div>
+ 
+ </div>
+ 
+ 
+ <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+ ga('create', 'UA-61936127-10', 'auto');
+ ga('send', 'pageview');
+ 
+ </script>
+ 
+ 
+ 
+ 
+ 
+ </body>
+ 
+ </html>
